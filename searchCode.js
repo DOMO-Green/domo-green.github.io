@@ -29,35 +29,35 @@ searchBox.addListener('places_changed', function() {
     var photos = places[0]['photos'];
     
     console.log(typeof photos);
-    
+    var PIC_PATH = 'https://github.com/iceriverg/iceriverg.github.io/blob/master/CopenWeek/'
     var photoUrls1 = [
-    'file:///Users/rihuazeng/Desktop/google-maps-api-tutorial-master2/CopenWeek/02_0271_2014-09_y_c01.jpg',
-     'file:///Users/rihuazeng/Desktop/google-maps-api-tutorial-master2/CopenWeek/02_0255_2017-06_y_c01.jpg',
-     'file:///Users/rihuazeng/Desktop/google-maps-api-tutorial-master2/CopenWeek/02_0255_2017-06_y_c02.jpg',
-     'file:///Users/rihuazeng/Desktop/google-maps-api-tutorial-master2/CopenWeek/02_0917_2016-07_y_c02.jpg',
-     'file:///Users/rihuazeng/Desktop/google-maps-api-tutorial-master2/CopenWeek/02_0227_2015-03_y_c01.jpg',
-    'file:///Users/rihuazeng/Desktop/google-maps-api-tutorial-master2/CopenWeek/02_1156_2016-01_y_c01.jpg',
+      'https://iceriverg.github.io/CopenWeek/02_0271_2014-09_y_c01.jpg',
+      'https://iceriverg.github.io/CopenWeek/02_0255_2017-06_y_c01.jpg',
+      'https://iceriverg.github.io/CopenWeek/02_0255_2017-06_y_c02.jpg',
+      'https://iceriverg.github.io/CopenWeek/02_0917_2016-07_y_c02.jpg',
+      'https://iceriverg.github.io/CopenWeek/02_0227_2015-03_y_c01.jpg',
+      'https://iceriverg.github.io/CopenWeek/02_1156_2016-01_y_c01.jpg',
         
     ];
     var photoUrls2 = [
-    'file:///Users/rihuazeng/Desktop/google-maps-api-tutorial-master2/CopenWeek/OrstedsPark_003.jpg',
-     'file:///Users/rihuazeng/Desktop/google-maps-api-tutorial-master2/CopenWeek/Norreport_001.jpg',
-     'file:///Users/rihuazeng/Desktop/google-maps-api-tutorial-master2/CopenWeek/RoyalVajsenhus_001.jpg',
-     'file:///Users/rihuazeng/Desktop/google-maps-api-tutorial-master2/CopenWeek/QueenLouiseBridge_001.jpg',
-     'file:///Users/rihuazeng/Desktop/google-maps-api-tutorial-master2/CopenWeek/OrstedsPark_001.jpg',
-    'file:///Users/rihuazeng/Desktop/google-maps-api-tutorial-master2/CopenWeek/QueenLouiseBridge_002.jpg',
-     'file:///Users/rihuazeng/Desktop/google-maps-api-tutorial-master2/CopenWeek/Norreport_004.jpg',
-     'file:///Users/rihuazeng/Desktop/google-maps-api-tutorial-master2/CopenWeek/Norreport_005.jpg',
-     'file:///Users/rihuazeng/Desktop/google-maps-api-tutorial-master2/CopenWeek/OrstedsPark_003.jpg',
-     'file:///Users/rihuazeng/Desktop/google-maps-api-tutorial-master2/CopenWeek/ElkanDK_001.jpg',
-    'file:///Users/rihuazeng/Desktop/google-maps-api-tutorial-master2/CopenWeek/Norreport_005.jpg',
-     'file:///Users/rihuazeng/Desktop/google-maps-api-tutorial-master2/CopenWeek/Norreport_006.jpg',
-     'file:///Users/rihuazeng/Desktop/google-maps-api-tutorial-master2/CopenWeek/ElkanDK_001.jpg',
-     'file:///Users/rihuazeng/Desktop/google-maps-api-tutorial-master2/CopenWeek/Norreport_006.jpg',
-     'file:///Users/rihuazeng/Desktop/google-maps-api-tutorial-master2/CopenWeek/OrstedsPark_003.jpg',
-    'file:///Users/rihuazeng/Desktop/google-maps-api-tutorial-master2/CopenWeek/RoyalVajsenhus_001.jpg',
-     'file:///Users/rihuazeng/Desktop/google-maps-api-tutorial-master2/CopenWeek/Torvehallerne_005.jpg',
-     'file:///Users/rihuazeng/Desktop/google-maps-api-tutorial-master2/CopenWeek/ElkanDK_001.jpg',
+     'https://iceriverg.github.io/CopenWeek/OrstedsPark_003.jpg',
+     'https://iceriverg.github.io/CopenWeek/Norreport_001.jpg',
+     'https://iceriverg.github.io/CopenWeek/RoyalVajsenhus_001.jpg',
+     'https://iceriverg.github.io/CopenWeek/QueenLouiseBridge_001.jpg',
+     'https://iceriverg.github.io/CopenWeek/OrstedsPark_001.jpg',
+     'https://iceriverg.github.io/CopenWeek/QueenLouiseBridge_002.jpg',
+     'https://iceriverg.github.io/CopenWeek/Norreport_004.jpg',
+     'https://iceriverg.github.io/CopenWeek/Norreport_005.jpg',
+     'https://iceriverg.github.io/CopenWeek/OrstedsPark_003.jpg',
+     'https://iceriverg.github.io/CopenWeek/ElkanDK_001.jpg',
+     'https://iceriverg.github.io/CopenWeek/Norreport_005.jpg',
+     'https://iceriverg.github.io/CopenWeek/Norreport_006.jpg',
+     'https://iceriverg.github.io/CopenWeek/ElkanDK_001.jpg',
+     'https://iceriverg.github.io/CopenWeek/Norreport_006.jpg',
+     'https://iceriverg.github.io/CopenWeek/OrstedsPark_003.jpg',
+     'https://iceriverg.github.io/CopenWeek/RoyalVajsenhus_001.jpg',
+     'https://iceriverg.github.io/CopenWeek/Torvehallerne_005.jpg',
+     'https://iceriverg.github.io/CopenWeek/ElkanDK_001.jpg',
                     ];
     
     score = [0.103, 0.135, 0.156, 0.017, 0.038, 0.148, 0.071, 0.197, 0.220, 0.083, 0.157, 0.171, 0.058, 0.096, 0.113, 0.09, 0.178, 0.191];
@@ -90,15 +90,15 @@ searchBox.addListener('places_changed', function() {
              var S4 = score[l]
              
             
-             placeDiv.innerHTML += "<p><font size='4' color='blue'><i>Buildings found with similar features with Nyhavn # "+N_b+" at:</i><br><b>"+photoUrl2.substring(75,L2-4)+ "</b>, <i>score: " + S2+"</i></p>" ;
+             placeDiv.innerHTML += "<p><font size='4' color='blue'><i>Buildings found with similar features with Nyhavn # "+N_b+" at:</i><br><b>"+photoUrl2.substring(82,L2-4)+ "</b>, <i>score: " + S2+"</i></p>" ;
              var imgStr = "<img src='"+ photoUrl2 +"' alt='image'>";
              placeDiv.innerHTML += imgStr;
             
-             placeDiv.innerHTML += "<p><font size='4' color='blue'><b>" +  photoUrl3.substring(75,L3-4) + "</b>, <i>score: " +S3+ "</b></i></p>";
+             placeDiv.innerHTML += "<p><font size='4' color='blue'><b>" +  photoUrl3.substring(82,L3-4) + "</b>, <i>score: " +S3+ "</b></i></p>";
              var imgStr = "<img src='"+ photoUrl3 +"' alt='image'>";
              placeDiv.innerHTML += imgStr;
             
-             placeDiv.innerHTML += "<p><font size='4' color='blue'><b>" +  photoUrl4.substring(75,L4-4) + "</b>, <i>score: " +S4+"</i></p>";
+             placeDiv.innerHTML += "<p><font size='4' color='blue'><b>" +  photoUrl4.substring(82,L4-4) + "</b>, <i>score: " +S4+"</i></p>";
              var imgStr = "<img src='"+ photoUrl4 +"' alt='image'>";
              placeDiv.innerHTML += imgStr;
              placeDiv.innerHTML += "<br>" +"------------------------------------------------------------------------------------" + "<br>";
