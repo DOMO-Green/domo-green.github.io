@@ -29,35 +29,35 @@ searchBox.addListener('places_changed', function() {
     var photos = places[0]['photos'];
     
     console.log(typeof photos);
-    var PIC_PATH = 'https://github.com/iceriverg/iceriverg.github.io/blob/master/CopenWeek/'
+    var PIC_PATH = 'https://github.com/domo-green/domo-green.github.io/blob/master/CopenWeek/'
     var photoUrls1 = [
-      'https://iceriverg.github.io/CopenWeek/02_0271_2014-09_y_c01.jpg',
-      'https://iceriverg.github.io/CopenWeek/02_0255_2017-06_y_c01.jpg',
-      'https://iceriverg.github.io/CopenWeek/02_0255_2017-06_y_c02.jpg',
-      'https://iceriverg.github.io/CopenWeek/02_0917_2016-07_y_c02.jpg',
-      'https://iceriverg.github.io/CopenWeek/02_0227_2015-03_y_c01.jpg',
-      'https://iceriverg.github.io/CopenWeek/02_1156_2016-01_y_c01.jpg',
+      'https://domo-green.github.io/CopenWeek/02_0271_2014-09_y_c01.jpg',
+      'https://domo-green.github.io/CopenWeek/02_0255_2017-06_y_c01.jpg',
+      'https://domo-green.github.io/CopenWeek/02_0255_2017-06_y_c02.jpg',
+      'https://domo-green.github.io/CopenWeek/02_0917_2016-07_y_c02.jpg',
+      'https://domo-green.github.io/CopenWeek/02_0227_2015-03_y_c01.jpg',
+      'https://domo-green.github.io/CopenWeek/02_1156_2016-01_y_c01.jpg',
         
     ];
     var photoUrls2 = [
-     'https://iceriverg.github.io/CopenWeek/OrstedsPark_003.jpg',
-     'https://iceriverg.github.io/CopenWeek/Norreport_001.jpg',
-     'https://iceriverg.github.io/CopenWeek/RoyalVajsenhus_001.jpg',
-     'https://iceriverg.github.io/CopenWeek/QueenLouiseBridge_001.jpg',
-     'https://iceriverg.github.io/CopenWeek/OrstedsPark_001.jpg',
-     'https://iceriverg.github.io/CopenWeek/QueenLouiseBridge_002.jpg',
-     'https://iceriverg.github.io/CopenWeek/Norreport_004.jpg',
-     'https://iceriverg.github.io/CopenWeek/Norreport_005.jpg',
-     'https://iceriverg.github.io/CopenWeek/OrstedsPark_003.jpg',
-     'https://iceriverg.github.io/CopenWeek/ElkanDK_001.jpg',
-     'https://iceriverg.github.io/CopenWeek/Norreport_005.jpg',
-     'https://iceriverg.github.io/CopenWeek/Norreport_006.jpg',
-     'https://iceriverg.github.io/CopenWeek/ElkanDK_001.jpg',
-     'https://iceriverg.github.io/CopenWeek/Norreport_006.jpg',
-     'https://iceriverg.github.io/CopenWeek/OrstedsPark_003.jpg',
-     'https://iceriverg.github.io/CopenWeek/RoyalVajsenhus_001.jpg',
-     'https://iceriverg.github.io/CopenWeek/Torvehallerne_005.jpg',
-     'https://iceriverg.github.io/CopenWeek/ElkanDK_001.jpg',
+     'https://domo-green.github.io/CopenWeek/OrstedsPark_003.jpg',
+     'https://domo-green.github.io/CopenWeek/Norreport_001.jpg',
+     'https://domo-green.github.io/CopenWeek/RoyalVajsenhus_001.jpg',
+     'https://domo-green.github.io/CopenWeek/QueenLouiseBridge_001.jpg',
+     'https://domo-green.github.io/CopenWeek/OrstedsPark_001.jpg',
+     'https://domo-green.github.io/CopenWeek/QueenLouiseBridge_002.jpg',
+     'https://domo-green.github.io/CopenWeek/Norreport_004.jpg',
+     'https://domo-green.github.io/CopenWeek/Norreport_005.jpg',
+     'https://domo-green.github.io/CopenWeek/OrstedsPark_003.jpg',
+     'https://domo-green.github.io/CopenWeek/ElkanDK_001.jpg',
+     'https://domo-green.github.io/CopenWeek/Norreport_005.jpg',
+     'https://domo-green.github.io/CopenWeek/Norreport_006.jpg',
+     'https://domo-green.github.io/CopenWeek/ElkanDK_001.jpg',
+     'https://domo-green.github.io/CopenWeek/Norreport_006.jpg',
+     'https://domo-green.github.io/CopenWeek/OrstedsPark_003.jpg',
+     'https://domo-green.github.io/CopenWeek/RoyalVajsenhus_001.jpg',
+     'https://domo-green.github.io/CopenWeek/Torvehallerne_005.jpg',
+     'https://domo-green.github.io/CopenWeek/ElkanDK_001.jpg',
                     ];
     
     score = [0.103, 0.135, 0.156, 0.017, 0.038, 0.148, 0.071, 0.197, 0.220, 0.083, 0.157, 0.171, 0.058, 0.096, 0.113, 0.09, 0.178, 0.191];
