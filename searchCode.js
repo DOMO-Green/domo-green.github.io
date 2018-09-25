@@ -29,7 +29,7 @@ searchBox.addListener('places_changed', function() {
     var photos = places[0]['photos'];
     
     console.log(typeof photos);
-    var PIC_PATH = 'https://github.com/domo-green/domo-green.github.io/blob/master/CopenWeek/'
+    //var PIC_PATH = 'https://github.com/domo-green/domo-green.github.io/blob/master/CopenWeek/'
     var photoUrls1 = [
       'https://domo-green.github.io/CopenWeek/02_0271_2014-09_y_c01.jpg',
       'https://domo-green.github.io/CopenWeek/02_0255_2017-06_y_c01.jpg',
